@@ -1,0 +1,36 @@
+:root {
+  --color-white: #fff;
+  --color-dark-blue: #070724;
+  --color-gray: #38384f;
+  --color-light-gray: #838391;
+  --color-sky: #419ebb;
+  --color-orange: #eda249;
+  --color-purple: #6f2ed6;
+  --color-orange: #d14c32;
+  --color-red: #d83a34;
+  --color-dark-orange: #cd5120;
+  --color-green: #1ec2a4;
+  --color-blue: #2d68f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding-top: 22px;
+  background: url("/background-stars.svg");
+  background-color: var(--color-dark-blue);
+}
