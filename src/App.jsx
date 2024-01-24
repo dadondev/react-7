@@ -1,4 +1,4 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Navbar from "./components/navbar/navbar";
 import Mercury from "./pages/mercury";
@@ -16,7 +16,12 @@ import Hero from "./components/hero/hero";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Navbar />,
+    element: (
+      <>
+        <Navbar />
+        <Outlet></Outlet>
+      </>
+    ),
     children: [
       {
         path: "",

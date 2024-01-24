@@ -44,6 +44,9 @@ button {
   justify-content: center;
   align-items: center;
 }
+.img__section img {
+  max-width: 350px;
+}
 
 .title {
   text-transform: uppercase;
